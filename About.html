@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Milestone #1</title>
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="logo">Project Milestone #1</div>
+        <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+        <!-- Moon icon for dark mode -->
+        <img src="redmoon.png" id="icon" alt="icon">
+    </nav>
+
+    <!-- Contact section -->
+    <section class="portfolio">
+        <div class="portfolio-container">
+            <div class="column-left">
+                <!-- Introduction -->
+                <h1>Learn More About Me</h1>
+                <p>My name is Khalil Hawkins, and this is my fourth year at Kennesaw State University. I enjoy spending my free time playing video games, reading novels, and watching movies with my family at the movie theater. I also graduated from Norcross High School in 2020 during the start of the pandemic. I am currently enrolled as a Cybersecurity major, and I have a passion for technology. I am excited to learn more about it and looking forward to exploring the field of Cybersecurity.</p>
+            </div>
+            <div class="column-right">
+                <!-- Placeholder for the photo -->
+                <img src="khalil.jpg" alt="illustration" class="portfolio-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Dark theme toggle script -->
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+        };
+    </script>
+</body>
+</html
