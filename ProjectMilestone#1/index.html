@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Milestone #1</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
+</head>
+<body>
+    <nav>
+        <div class="logo">Project Milestone #1</div> <!-- Logo for the website -->
+        <div class="nav-items">
+            <a href="index.html">Home</a> <!-- Navigation link to Home page -->
+            <a href="About.html">About</a> <!-- Navigation link to About page -->
+            <a href="Contact.html">Contact</a> <!-- Navigation link to Contact page -->
+        </div>
+      <!-- Moon icon for dark mode -->
+        <img src="redmoon.png" id="icon" alt="icon"> 
+    </nav>
+    <section class="portfolio"> <!-- Portfolio section -->
+        <div class="portfolio-container">
+            <div class="column-left">
+                <h1>Welcome to My Portfolio</h1> <!-- Heading for the portfolio section -->
+                <p>Hello, my name is Khalil Hawkins, and I'm happy you visited my website. If you wish to learn more about me, please click on the About button. If you would like to contact me, please click on the Contact button. Thank you for visiting my website.</p> <!-- Introduction text -->
+            </div>
+            <div class="column-right">
+                
+                <img src="khalil.jpg" alt="illustration" class="portfolio-image"> <!-- Image of Khalil (illustration) -->
+            </div>
+        </div>
+    </section>
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme"); // Toggle dark theme when icon is clicked
+        };
+    </script>
+</body>
+</html>
+
